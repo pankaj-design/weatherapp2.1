@@ -1,39 +1,45 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-}
-h1{
-    text-align: center;
-    color: blue;
-    margin-right: 10%;
-    background-color:darkorange;
+    /* background-color: bisque; */
 }
 
-body{
-    /* background-color: antiquewhite; */
-   
-    background-size: cover;
-    
+
+h1{
+    text-align: center;
+    align-items: center;
+    color: blue;
+    background-color:darkorange;
+
 }
+
+    .container{
+    /* background-color: antiquewhite; */
+    background-size: cover;
+    align-items: center;
+    margin: 3% 25%;
+    
+} 
+
 .C1{
     display: flex;
     align-items: center;
     text-align: center;
      flex-direction: column;
-    background-image: url("https://images.all-free-download.com/images/graphicwebp/night_moon_clouds_266001.webp");
+    background-image: url(/images/night_moon_clouds_266001.webp);
     background-size: cover;
-    margin: 2% 30%;
-    padding: 15px 5px;
-    height: 400px;
-    width: 400px;
+     /* margin: 2% 15%; */
+    padding: 5px 5px;
+    height: 425px;
+    /* width: 400px; */
     border-radius: 15px;
     border-style: double;
     border-color: rgb(112, 4, 4);
     border-width: 10px;
 }
-.C2{
-    display: flex;
+.C2{ 
+    display:grid;
 
-}
+ }
 .C3{
     display: inline grid;
     /* background-color: blue; */
@@ -45,7 +51,9 @@ body{
 .C4{
     display: flex;
     list-style: none;
-    align-items:stretch;
+    align-items:center;
+    text-align: center;
+  
 }
 h2{
     background-color:darkred;
@@ -64,16 +72,7 @@ li{
     width: 100px;
     color: cornsilk;
 }
-#userinput{
-    height: 25px;
-    width: 220px;
-    border-style: solid;
-    border-radius: 10px;
-    background-color:cornsilk;
-    border-color:rgb(133, 20, 43) ;
-    font-size: 18px;
 
-}
 button{
     height: 35px;
     border-style: solid;
@@ -85,6 +84,7 @@ button{
 button:hover{
     background-color: crimson;
 }
+
 #userinput {
     height: 25px;
     width:50%;
