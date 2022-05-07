@@ -85,3 +85,16 @@ button{
 button:hover{
     background-color: crimson;
 }
+#userinput {
+    height: 25px;
+    width:50%;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: cornsilk;
+    border-color: rgb(133, 20, 43);
+    font-size: 18px;
+}
+@media screen and (max-width: 570px) {
+    .C4 {  flex-direction: column;};
+    .C1 {align-items:flex-start;}
+}
