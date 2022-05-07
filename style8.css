@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: blue;
+    margin-right: 10%;
+    background-color:darkorange;
+}
+
+body{
+    /* background-color: antiquewhite; */
+   
+    background-size: cover;
+    
+}
+.C1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+     flex-direction: column;
+    background-image: url("https://images.all-free-download.com/images/graphicwebp/night_moon_clouds_266001.webp");
+    background-size: cover;
+    margin: 2% 30%;
+    padding: 15px 5px;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    border-style: double;
+    border-color: rgb(112, 4, 4);
+    border-width: 10px;
+}
+.C2{
+    display: flex;
+
+}
+.C3{
+    display: inline grid;
+    /* background-color: blue; */
+    list-style: none;
+    height: 80%;
+    width: 90%;
+    background-size: cover;
+}
+.C4{
+    display: flex;
+    list-style: none;
+    align-items:stretch;
+}
+h2{
+    background-color:darkred;
+}
+li{
+    /* background-color:blue ; */
+    margin: 2px 30px 3px 1px;
+}
+.C5{
+    height: 100px;
+    width: 100px;
+    color: cornsilk;
+}
+.C6{
+    height: 100px;
+    width: 100px;
+    color: cornsilk;
+}
+#userinput{
+    height: 25px;
+    width: 220px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:cornsilk;
+    border-color:rgb(133, 20, 43) ;
+    font-size: 18px;
+
+}
+button{
+    height: 35px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:chocolate;
+    border-color: rgb(133, 20, 43);
+
+}
+button:hover{
+    background-color: crimson;
+}
