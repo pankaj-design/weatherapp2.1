@@ -14,7 +14,7 @@ h1{
 
     .container{
     /* background-color: antiquewhite; */
-    background-size: cover;
+/*     background-size: cover; */
     align-items: center;
     margin: 3% 25%;
     
@@ -26,7 +26,8 @@ h1{
     text-align: center;
      flex-direction: column;
 /*     background-image: url(/images/night_moon_clouds_266001.webp); */
-    background-image: url(/images/night_moon_clouds_266001%20-%20Copy.webp);
+/*     background-image: url(/images/night_moon_clouds_266001%20-%20Copy.webp); */
+    background-color: black;
     background-size: cover;
      /* margin: 2% 15%; */
     padding: 5px 5px;
@@ -97,5 +98,5 @@ button:hover{
 }
 @media screen and (max-width: 570px) {
     .C4 {  flex-direction: column;};
-    .C1 {align-items:flex-start;}
+/*     .C1 {align-items:flex-start;} */
 }
